@@ -3,7 +3,7 @@ import numpy as np
 bit_number=8  #Bit number or layer number ,,starting from one
 
 binary_repr_v = np.vectorize(np.binary_repr)
-img=cv2.imread('E:\\python\\7.numpy\\opencv\\a.jpg',0)
+img=cv2.imread('E:\\python\\7.numpy\\opencv\\li.jpg',0)
 binaryImg=binary_repr_v(img, width=8)
 shape=np.shape(img)
 
